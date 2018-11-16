@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时光轴</title>
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+<div class="box">  
+    <div class="boxcenter">
+        <!-- contenteditable="true"可编辑文件内容-->
+        <div class="boxc_t"><h4>随便说点什么吧...</h4></div>
+        <div class="boxc_c" contenteditable="true" id="aa"></div>
+        <div class="boxc_b"><a href="#">发布</a></div>
+    </div>
+    <div class="timefamily">
+        <!--<div class="time">  <a href="#1">2018-5-24 12:00:00</a></div>-->
+    </div>
+    <!--时光轴线-->
+    <div class="timeline">
+        <div class="timeline_t"></div>
+        <div class="nextbox">
+            <!--<div class="word" id="1">-->
+                <!--<div class="circle"><span></span></div>-->
+                <!--<h4>2018-5-24 <p>12:00:00</p></h4>-->
+                <!--<h5>hishdienf</h5>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $(function () {
+        Append();
+        Show();
+    })
+</script>
+</body>
+</html>
